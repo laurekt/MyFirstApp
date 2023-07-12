@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Text("maow :3")
+            Text("maow >:3")
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color(hue: 0.345, saturation: 0.299, brightness: 0.782))
@@ -20,6 +20,7 @@ struct ContentView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
 
+            
             
         }
         .padding()
